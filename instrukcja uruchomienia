@@ -1,0 +1,23 @@
+Dokumentacja projektu:
+
+1. Struktura projektu:
+Serwer: Kompilator C++ (np. g++) oraz Linux.
+Klient: Python (3.8+), biblioteka tkinter.
+
+2. Komunikacja:
+Protokół TCP:
+Połączenie trwałe.
+Dane przesyłane w UTF-8.
+
+3. Uruchamianie:
+
+Serwer:
+g++ -o server server.cpp
+./server
+
+Klient:
+python client_gui.py
+
+4. Testowanie:
+Uruchom serwer na komputerze A.
+Uruchom klientów na komputerze A i B, podając IP komputera A.
